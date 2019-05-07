@@ -28,5 +28,6 @@ for i in range(0, 100):
                         rank += 1
         ranksave[i] = rank + 1
 
+#번호, 횟수, 순위 출력
 for i in range(0, 100):
         print(i,"번","번호",number[i],"횟수",count[i],"순위",ranksave[i])
